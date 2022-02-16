@@ -23,6 +23,7 @@ export default ()=>{
         if(isSignedIn){
             history.push('/dashboard');
         }
+        
     },[isSignedIn]);
     
     return (
